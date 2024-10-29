@@ -3,57 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Oleksandr Dvorko CV</title>
 </head>
 <body>
-    <div class="container">
-        <header>
+
+    <div class="header">
+        <header class="text-center my-5">
             <h1>Oleksandr Dvorko CV</h1>
-            <p>Email: <a href="mailto:oleksandrdvorko1703@gmail.com">send message</a> </p>
+            <p>Email: <a href="mailto:oleksandrdvorko1703@gmail.com">send message</a></p>
             <p>Phone: 0852007907</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/oleksandr-dvorko-969359231/">click here</a></p>
-            <p>Location: Ahtlone, Ireland</p>
+            <p>Location: Athlone, Ireland</p>
         </header>
+    </div>
 
-        <div class="main-content">
-            <div class="column">
-                <h2>Personal Profile</h2>
-                <p>I am a motivated individual looking for a job where I will be willing to take on a challenge and work hard regardless 
-                    of the difficulties. I have experience working in a team and can effectively collaborate with colleagues to achieve 
-                    common goals. My analytical skills allow me to effectively solve complex problems and find optimal solutions.</p>
+    <div class="carousel-container">
+        <div id="mainContentCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-content p-4">
+                        <h2>Personal Profile</h2>
+                        <p>I am a motivated individual looking for a job where I will be willing to take on a challenge and work hard regardless 
+                            of the difficulties. I have experience working in a team and can effectively collaborate with colleagues to achieve 
+                            common goals. My analytical skills allow me to effectively solve complex problems and find optimal solutions.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content p-4">
+                        <h2>Education</h2>
+                        <h3>Bachelor of Business Administration</h3>
+                        <p>University of Marie Curie-Sklodowska, Poland</p>
+                        <p>2017-2021</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-content p-4">
+                        <h2>Experience</h2>
+                        <h3>Sales Assistant</h3>
+                        <p>Peasant's Meat - Korosten, Ukraine</p>
+                        <p>2021-2022</p>
+                        <ul>
+                            <li>Boosted sales and improved customer satisfaction by providing attentive, personalised client services.</li>
+                            <li>Cultivated excellent customer relationships by providing helpful, friendly, and attentive service.</li>
+                            <li>Provided helpful, attentive sales support to generate positive customer feedback.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-
-            <div class="column">
-                <h2>Education</h2>
-                <h3>Bachelor of Business Administration</h3>
-                <p>University of Marie Curie-Sklodowska, Poland</p>
-                <p>2017-2021</p>
-            </div>
-
-            <div class="column">
-                <h2>Experience</h2>
-                <h3>Sales Assistant</h3>
-                <p>Peasant's Meat - Korosten, Ukraine</p>
-                <p>2021-2022</p>
-                <ul>
-                    <li>Boosted sales and improved customer satisfaction by providing attentive, personalised client services.</li>
-                    <li>Cultivated excellent customer relationships by providing helpful, friendly and attentive service.</li>
-                    <li>Provided helpful, attentive sales support to generate positive customer feedback.</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Financial literacy</li>
-                <li>Digital literacy</li>
-                <li>Multitasking</li>
-                <li>Critical thinking and problem-solving</li>
-                <li>Effective communication</li>
-            </ul>
+            <a class="carousel-control-prev" href="#mainContentCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#mainContentCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul class="list-unstyled">
+            <li class="skill-item p-2 my-2 rounded">Financial literacy</li>
+            <li class="skill-item p-2 my-2 rounded">Digital literacy</li>
+            <li class="skill-item p-2 my-2 rounded">Multitasking</li>
+            <li class="skill-item p-2 my-2 rounded">Critical thinking and problem-solving</li>
+            <li class="skill-item p-2 my-2 rounded">Effective communication</li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
